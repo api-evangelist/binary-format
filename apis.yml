@@ -1,12 +1,23 @@
+aid: binary-format
 name: Binary Format
-description: Binary Format is a specialized technology or methodology in the binary
-  domain that addresses specific technical or business requirements. It provides targeted
-  capabilities that help practitioners and organizations solve problems and improve
-  outcomes in their area of focus.
-url: null
+description: >-
+  Binary format refers to data encoding and serialization methods that use
+  binary rather than text representations, including formats like Protocol
+  Buffers, MessagePack, Avro, Thrift, CBOR, and others used in APIs and
+  data storage systems for efficiency.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Binary Format
-created: '2025'
-modified: '2025'
+  - Binary Format
+  - Serialization
+  - Data Encoding
+  - Protocol Buffers
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/binary-format/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
