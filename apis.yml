@@ -8,7 +8,7 @@ description: >-
   advantages over text-based formats in terms of size, parsing speed, and
   type safety.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Binary Format
   - Data Encoding
