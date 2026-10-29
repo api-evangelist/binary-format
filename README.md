@@ -1,4 +1,4 @@
-# Binary Format (binary-format)
+# Binary Format
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,70 +66,26 @@
 
 Binary format refers to data encoding and serialization methods that use binary rather than text representations, including formats like Protocol Buffers, MessagePack, Avro, Thrift, CBOR, and others used in APIs and data storage systems for efficiency. Binary formats offer significant advantages over text-based formats in terms of size, parsing speed, and type safety.
 
-## Tags:
+**Areas:** Binary Format · Data Encoding · Protocol Buffers · Serialization · MessagePack · Apache Avro · Apache Thrift · CBOR
 
- - Binary Format, Data Encoding, Protocol Buffers, Serialization, MessagePack, Apache Avro, Apache Thrift, CBOR
+## Binary Format on APIs.io
 
-## Timestamps
+Everything profiled for Binary Format is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/binary-format/](https://apis.io/providers/binary-format/)** — or go straight to one of the APIs or properties below.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-21
+## API Evangelist rating
 
-## Formats
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Protocol Buffers (protobuf) | Google's language-neutral, platform-neutral extensible serialization format with schema-first design. |
-| MessagePack | Efficient binary serialization format that is JSON-compatible with smaller encoding size. |
-| Apache Avro | Row-oriented remote procedure call and data serialization framework developed in Apache Hadoop. |
-| Apache Thrift | Facebook-originated framework for scalable cross-language services development with binary transport. |
-| CBOR | IETF RFC 8949 binary data format based on JSON data model with compact encoding. |
-| FlatBuffers | Google's cross-platform serialization library for memory-efficient access without parsing. |
-| Cap'n Proto | Ultra-fast data interchange format and RPC system with zero-copy reads. |
-| Apache Arrow | Cross-language columnar memory format for flat and hierarchical data. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| High-Performance API Communication | Using binary serialization to reduce payload size and parsing overhead in API calls. |
-| gRPC Service Definition | Defining gRPC service contracts using Protocol Buffers IDL. |
-| Event Streaming | Encoding Kafka and event streaming messages using Avro with Schema Registry. |
-| IoT Data Transmission | Using compact binary formats like CBOR or MessagePack for bandwidth-constrained IoT devices. |
-| Columnar Data Processing | Using Apache Arrow for zero-copy analytics across language boundaries. |
-| Microservice Communication | Replacing JSON/XML with binary formats for internal microservice RPC efficiency. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Conformance
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Binary Format: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Standard | Description |
-|----------|-------------|
-| RFC 8949 - CBOR | IETF standard for Concise Binary Object Representation. |
-| Protocol Buffers Language Guide | Google's specification for Protocol Buffers schema definition language. |
-| Apache Avro Specification | Apache Software Foundation specification for the Avro serialization format. |
+## Open an issue
 
-## Vocabulary
-
-| Term | Definition |
-|------|------------|
-| Schema | Formal definition of data structure used by binary format encoders/decoders. |
-| Serialization | Converting in-memory data structures into binary byte sequences for transmission or storage. |
-| Deserialization | Reconstructing in-memory data structures from binary byte sequences. |
-| IDL | Interface Definition Language used to define data schemas and service interfaces. |
-| Wire Format | The binary encoding used when data is transmitted over a network. |
-| Schema Evolution | Ability to add, remove, or modify schema fields while maintaining backward/forward compatibility. |
-| Varint | Variable-length integer encoding used by Protocol Buffers for compact integer storage. |
-
-## References
-
-- [Protocol Buffers](https://protobuf.dev)
-- [MessagePack](https://msgpack.org)
-- [Apache Avro](https://avro.apache.org)
-- [Apache Thrift](https://thrift.apache.org)
-- [CBOR](https://cbor.io)
-- [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/binary-format/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
